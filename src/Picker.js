@@ -51,7 +51,7 @@ const Picker = ({ Component, ...props }) => {
                     renderInput={ props =>
                         <TextField { ...props }
                                    margin="normal"
-                                   variant="filled"
+                                   variant="outlined"
                                    fullWidth={ fullWidth }/>
                     }
                 />
